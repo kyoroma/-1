@@ -64,3 +64,30 @@ footer {
   height: 50px;
   background-color: #aaa;
 }
+
+@media screen and (max-width:768px) {
+  hedar {
+    width: 100%;
+    height: 50px;
+  }
+
+  main {
+    width: 100%;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .step-box {
+    width: 90%;
+    padding: 10px;
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+
+  .step-box:last-child {
+    margin-bottom: 0;
+  }
+}
